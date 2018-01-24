@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green_temp">#23A96E</color>
+    <color name="green_dark">#159204</color>
+    <color name="bright_green">#02D8B0</color>
+    <color name="button_green">#10a54a</color>
+    <color name="eyeWhite">#FFFACD</color>
+    <color name="eyelid">#B0E0E6</color>
+    <color name="iris">#8B4513</color>
+    <color name="eyeOutline">#000000</color>
+    <color name="overlayHint">#7FFF00</color>
+    <color name="lightGrey">#DDDDDD</color>
+    <color name="pinColor">@color/black_overlay</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#98df88</color>
+    <!-- dots active colors -->
+    <color name="dot_active">#e9246107</color>
+</resources>

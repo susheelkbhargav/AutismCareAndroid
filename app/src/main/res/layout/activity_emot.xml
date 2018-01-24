@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background= "@drawable/background_emotion">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:textStyle="bold|italic"
+    android:text="Choose your options to find your emotions"
+    android:textColor="#ffffff"
+    android:textSize="35sp" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find emotion in a picture"
+        android:background="@drawable/button_selector"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_selector"
+        android:text="Find emotion in realtime" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:text="Send emotion alert messages" />
+
+
+
+
+
+
+</LinearLayout>

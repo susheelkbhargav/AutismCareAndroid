@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/modern_background">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:id="@+id/ansButton0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:elevation="6dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/ansButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/ansButton0"
+        android:elevation="6dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/ansButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ansButton0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:elevation="6dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/ansButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ansButton1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/ansButton2"
+        android:elevation="6dp"
+        android:onClick="onClick" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ansButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="15dp"
+        android:text="Quiz Score = 0 "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+</RelativeLayout>
+
